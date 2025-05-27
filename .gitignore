@@ -1,0 +1,5 @@
+/test
+/train-semi
+/train-semi-segmentation
+/train-unlabeled
+/saved_models
