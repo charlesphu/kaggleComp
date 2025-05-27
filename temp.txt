@@ -1,0 +1,104 @@
+# import torch
+# import torch.nn as nn
+# import torch.nn.functional as F
+
+# class SEBlock(nn.Module):
+#     """Squeeze-and-Excitation (SE) Block for channel-wise attention"""
+#     def __init__(self, channels, reduction=16):
+#         super(SEBlock, self).__init__()
+#         self.fc1 = nn.Linear(channels, channels // reduction)
+#         self.fc2 = nn.Linear(channels // reduction, channels)
+
+#     def forward(self, x):
+#         b, c, _, _ = x.size()
+#         y = F.adaptive_avg_pool2d(x, 1).view(b, c)
+#         y = F.relu(self.fc1(y))
+#         y = torch.sigmoid(self.fc2(y)).view(b, c, 1, 1)
+#         return x * y
+
+# def conv_block(in_c, out_c, dropout=0.0):
+#     layers = [
+#         nn.Conv2d(in_c, out_c, 3, padding=1),
+#         nn.BatchNorm2d(out_c),
+#         nn.ReLU(inplace=True),
+#         nn.Conv2d(out_c, out_c, 3, padding=1),
+#         nn.BatchNorm2d(out_c),
+#         nn.ReLU(inplace=True),
+#     ]
+#     if dropout > 0:
+#         layers.append(nn.Dropout(dropout))
+#     layers.append(SEBlock(out_c))  # Add attention
+#     return nn.Sequential(*layers)
+
+# class UNet(nn.Module):
+#     def __init__(self, in_channels=3, out_channels=NUM_CLASSES):
+#         super(UNet, self).__init__()
+
+#         self.enc1 = conv_block(in_channels, 64)
+#         self.enc2 = conv_block(64, 128)
+#         self.enc3 = conv_block(128, 256)
+#         self.enc4 = conv_block(256, 512)
+
+#         self.pool = nn.MaxPool2d(2)
+
+#         self.bottleneck = conv_block(512, 1024)
+
+#         self.up3 = nn.ConvTranspose2d(1024, 512, kernel_size=2, stride=2)
+#         self.dec3 = conv_block(1024, 512, dropout=0.3)
+
+#         self.up2 = nn.ConvTranspose2d(512, 256, kernel_size=2, stride=2)
+#         self.dec2 = conv_block(512, 256, dropout=0.2)
+
+#         self.up1 = nn.ConvTranspose2d(256, 128, kernel_size=2, stride=2)
+#         self.dec1 = conv_block(256, 128, dropout=0.1)
+
+#         self.up0 = nn.ConvTranspose2d(128, 64, kernel_size=2, stride=2)
+#         self.dec0 = conv_block(128, 64)
+
+#         self.final = nn.Conv2d(64, out_channels, kernel_size=1)
+
+#     def forward(self, x):
+#         e1 = self.enc1(x)
+#         e2 = self.enc2(self.pool(e1))
+#         e3 = self.enc3(self.pool(e2))
+#         e4 = self.enc4(self.pool(e3))
+
+#         b = self.bottleneck(self.pool(e4))
+
+#         d3 = self.up3(b)
+#         d3 = torch.cat([d3, e4], dim=1)
+#         d3 = self.dec3(d3)
+
+#         d2 = self.up2(d3)
+#         d2 = torch.cat([d2, e3], dim=1)
+#         d2 = self.dec2(d2)
+
+#         d1 = self.up1(d2)
+#         d1 = torch.cat([d1, e2], dim=1)
+#         d1 = self.dec1(d1)
+
+#         d0 = self.up0(d1)
+#         d0 = torch.cat([d0, e1], dim=1)
+#         d0 = self.dec0(d0)
+
+#         out = self.final(d0)
+#         return F.softmax(out, dim=1)  # Use Softmax for multi-class segmentation
+
+
+# class SimpleUNet(nn.Module):
+#     def __init__(self, num_classes):
+#         super(SimpleUNet, self).__init__()
+#         self.encoder = nn.Sequential(
+#             nn.Conv2d(3, 16, 3, padding=1), nn.ReLU(), nn.MaxPool2d(2),  # [B, 16, 64, 64]
+#             nn.Conv2d(16, 32, 3, padding=1), nn.ReLU(), nn.MaxPool2d(2), # [B, 32, 32, 32]
+#         )
+#         self.decoder = nn.Sequential(
+#             nn.ConvTranspose2d(32, 16, 2, stride=2),  # [B, 16, 64, 64]
+#             nn.ReLU(),
+#             nn.ConvTranspose2d(16, num_classes, 2, stride=2)  # [B, num_classes, 128, 128]
+#         )
+
+#     def forward(self, x):
+#         x = self.encoder(x)
+#         x = self.decoder(x)
+#         return x  # logits [B, num_classes, H, W]
