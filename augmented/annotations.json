@@ -1,0 +1,2502 @@
+[
+  {
+    "image": "aug_0000.png",
+    "mask": "aug_0000.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0001.png",
+    "mask": "aug_0001.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0002.png",
+    "mask": "aug_0002.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0003.png",
+    "mask": "aug_0003.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0004.png",
+    "mask": "aug_0004.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0005.png",
+    "mask": "aug_0005.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0006.png",
+    "mask": "aug_0006.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0007.png",
+    "mask": "aug_0007.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0008.png",
+    "mask": "aug_0008.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0009.png",
+    "mask": "aug_0009.png",
+    "class_id": 0
+  },
+  {
+    "image": "aug_0010.png",
+    "mask": "aug_0010.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0011.png",
+    "mask": "aug_0011.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0012.png",
+    "mask": "aug_0012.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0013.png",
+    "mask": "aug_0013.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0014.png",
+    "mask": "aug_0014.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0015.png",
+    "mask": "aug_0015.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0016.png",
+    "mask": "aug_0016.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0017.png",
+    "mask": "aug_0017.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0018.png",
+    "mask": "aug_0018.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0019.png",
+    "mask": "aug_0019.png",
+    "class_id": 1
+  },
+  {
+    "image": "aug_0020.png",
+    "mask": "aug_0020.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0021.png",
+    "mask": "aug_0021.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0022.png",
+    "mask": "aug_0022.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0023.png",
+    "mask": "aug_0023.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0024.png",
+    "mask": "aug_0024.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0025.png",
+    "mask": "aug_0025.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0026.png",
+    "mask": "aug_0026.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0027.png",
+    "mask": "aug_0027.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0028.png",
+    "mask": "aug_0028.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0029.png",
+    "mask": "aug_0029.png",
+    "class_id": 2
+  },
+  {
+    "image": "aug_0030.png",
+    "mask": "aug_0030.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0031.png",
+    "mask": "aug_0031.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0032.png",
+    "mask": "aug_0032.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0033.png",
+    "mask": "aug_0033.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0034.png",
+    "mask": "aug_0034.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0035.png",
+    "mask": "aug_0035.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0036.png",
+    "mask": "aug_0036.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0037.png",
+    "mask": "aug_0037.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0038.png",
+    "mask": "aug_0038.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0039.png",
+    "mask": "aug_0039.png",
+    "class_id": 3
+  },
+  {
+    "image": "aug_0040.png",
+    "mask": "aug_0040.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0041.png",
+    "mask": "aug_0041.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0042.png",
+    "mask": "aug_0042.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0043.png",
+    "mask": "aug_0043.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0044.png",
+    "mask": "aug_0044.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0045.png",
+    "mask": "aug_0045.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0046.png",
+    "mask": "aug_0046.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0047.png",
+    "mask": "aug_0047.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0048.png",
+    "mask": "aug_0048.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0049.png",
+    "mask": "aug_0049.png",
+    "class_id": 4
+  },
+  {
+    "image": "aug_0050.png",
+    "mask": "aug_0050.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0051.png",
+    "mask": "aug_0051.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0052.png",
+    "mask": "aug_0052.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0053.png",
+    "mask": "aug_0053.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0054.png",
+    "mask": "aug_0054.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0055.png",
+    "mask": "aug_0055.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0056.png",
+    "mask": "aug_0056.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0057.png",
+    "mask": "aug_0057.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0058.png",
+    "mask": "aug_0058.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0059.png",
+    "mask": "aug_0059.png",
+    "class_id": 5
+  },
+  {
+    "image": "aug_0060.png",
+    "mask": "aug_0060.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0061.png",
+    "mask": "aug_0061.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0062.png",
+    "mask": "aug_0062.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0063.png",
+    "mask": "aug_0063.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0064.png",
+    "mask": "aug_0064.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0065.png",
+    "mask": "aug_0065.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0066.png",
+    "mask": "aug_0066.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0067.png",
+    "mask": "aug_0067.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0068.png",
+    "mask": "aug_0068.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0069.png",
+    "mask": "aug_0069.png",
+    "class_id": 6
+  },
+  {
+    "image": "aug_0070.png",
+    "mask": "aug_0070.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0071.png",
+    "mask": "aug_0071.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0072.png",
+    "mask": "aug_0072.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0073.png",
+    "mask": "aug_0073.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0074.png",
+    "mask": "aug_0074.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0075.png",
+    "mask": "aug_0075.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0076.png",
+    "mask": "aug_0076.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0077.png",
+    "mask": "aug_0077.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0078.png",
+    "mask": "aug_0078.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0079.png",
+    "mask": "aug_0079.png",
+    "class_id": 7
+  },
+  {
+    "image": "aug_0080.png",
+    "mask": "aug_0080.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0081.png",
+    "mask": "aug_0081.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0082.png",
+    "mask": "aug_0082.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0083.png",
+    "mask": "aug_0083.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0084.png",
+    "mask": "aug_0084.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0085.png",
+    "mask": "aug_0085.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0086.png",
+    "mask": "aug_0086.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0087.png",
+    "mask": "aug_0087.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0088.png",
+    "mask": "aug_0088.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0089.png",
+    "mask": "aug_0089.png",
+    "class_id": 8
+  },
+  {
+    "image": "aug_0090.png",
+    "mask": "aug_0090.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0091.png",
+    "mask": "aug_0091.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0092.png",
+    "mask": "aug_0092.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0093.png",
+    "mask": "aug_0093.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0094.png",
+    "mask": "aug_0094.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0095.png",
+    "mask": "aug_0095.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0096.png",
+    "mask": "aug_0096.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0097.png",
+    "mask": "aug_0097.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0098.png",
+    "mask": "aug_0098.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0099.png",
+    "mask": "aug_0099.png",
+    "class_id": 9
+  },
+  {
+    "image": "aug_0100.png",
+    "mask": "aug_0100.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0101.png",
+    "mask": "aug_0101.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0102.png",
+    "mask": "aug_0102.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0103.png",
+    "mask": "aug_0103.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0104.png",
+    "mask": "aug_0104.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0105.png",
+    "mask": "aug_0105.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0106.png",
+    "mask": "aug_0106.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0107.png",
+    "mask": "aug_0107.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0108.png",
+    "mask": "aug_0108.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0109.png",
+    "mask": "aug_0109.png",
+    "class_id": 10
+  },
+  {
+    "image": "aug_0110.png",
+    "mask": "aug_0110.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0111.png",
+    "mask": "aug_0111.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0112.png",
+    "mask": "aug_0112.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0113.png",
+    "mask": "aug_0113.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0114.png",
+    "mask": "aug_0114.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0115.png",
+    "mask": "aug_0115.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0116.png",
+    "mask": "aug_0116.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0117.png",
+    "mask": "aug_0117.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0118.png",
+    "mask": "aug_0118.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0119.png",
+    "mask": "aug_0119.png",
+    "class_id": 11
+  },
+  {
+    "image": "aug_0120.png",
+    "mask": "aug_0120.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0121.png",
+    "mask": "aug_0121.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0122.png",
+    "mask": "aug_0122.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0123.png",
+    "mask": "aug_0123.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0124.png",
+    "mask": "aug_0124.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0125.png",
+    "mask": "aug_0125.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0126.png",
+    "mask": "aug_0126.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0127.png",
+    "mask": "aug_0127.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0128.png",
+    "mask": "aug_0128.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0129.png",
+    "mask": "aug_0129.png",
+    "class_id": 12
+  },
+  {
+    "image": "aug_0130.png",
+    "mask": "aug_0130.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0131.png",
+    "mask": "aug_0131.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0132.png",
+    "mask": "aug_0132.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0133.png",
+    "mask": "aug_0133.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0134.png",
+    "mask": "aug_0134.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0135.png",
+    "mask": "aug_0135.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0136.png",
+    "mask": "aug_0136.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0137.png",
+    "mask": "aug_0137.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0138.png",
+    "mask": "aug_0138.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0139.png",
+    "mask": "aug_0139.png",
+    "class_id": 13
+  },
+  {
+    "image": "aug_0140.png",
+    "mask": "aug_0140.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0141.png",
+    "mask": "aug_0141.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0142.png",
+    "mask": "aug_0142.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0143.png",
+    "mask": "aug_0143.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0144.png",
+    "mask": "aug_0144.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0145.png",
+    "mask": "aug_0145.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0146.png",
+    "mask": "aug_0146.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0147.png",
+    "mask": "aug_0147.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0148.png",
+    "mask": "aug_0148.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0149.png",
+    "mask": "aug_0149.png",
+    "class_id": 14
+  },
+  {
+    "image": "aug_0150.png",
+    "mask": "aug_0150.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0151.png",
+    "mask": "aug_0151.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0152.png",
+    "mask": "aug_0152.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0153.png",
+    "mask": "aug_0153.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0154.png",
+    "mask": "aug_0154.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0155.png",
+    "mask": "aug_0155.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0156.png",
+    "mask": "aug_0156.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0157.png",
+    "mask": "aug_0157.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0158.png",
+    "mask": "aug_0158.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0159.png",
+    "mask": "aug_0159.png",
+    "class_id": 15
+  },
+  {
+    "image": "aug_0160.png",
+    "mask": "aug_0160.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0161.png",
+    "mask": "aug_0161.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0162.png",
+    "mask": "aug_0162.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0163.png",
+    "mask": "aug_0163.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0164.png",
+    "mask": "aug_0164.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0165.png",
+    "mask": "aug_0165.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0166.png",
+    "mask": "aug_0166.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0167.png",
+    "mask": "aug_0167.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0168.png",
+    "mask": "aug_0168.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0169.png",
+    "mask": "aug_0169.png",
+    "class_id": 16
+  },
+  {
+    "image": "aug_0170.png",
+    "mask": "aug_0170.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0171.png",
+    "mask": "aug_0171.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0172.png",
+    "mask": "aug_0172.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0173.png",
+    "mask": "aug_0173.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0174.png",
+    "mask": "aug_0174.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0175.png",
+    "mask": "aug_0175.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0176.png",
+    "mask": "aug_0176.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0177.png",
+    "mask": "aug_0177.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0178.png",
+    "mask": "aug_0178.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0179.png",
+    "mask": "aug_0179.png",
+    "class_id": 17
+  },
+  {
+    "image": "aug_0180.png",
+    "mask": "aug_0180.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0181.png",
+    "mask": "aug_0181.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0182.png",
+    "mask": "aug_0182.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0183.png",
+    "mask": "aug_0183.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0184.png",
+    "mask": "aug_0184.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0185.png",
+    "mask": "aug_0185.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0186.png",
+    "mask": "aug_0186.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0187.png",
+    "mask": "aug_0187.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0188.png",
+    "mask": "aug_0188.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0189.png",
+    "mask": "aug_0189.png",
+    "class_id": 18
+  },
+  {
+    "image": "aug_0190.png",
+    "mask": "aug_0190.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0191.png",
+    "mask": "aug_0191.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0192.png",
+    "mask": "aug_0192.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0193.png",
+    "mask": "aug_0193.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0194.png",
+    "mask": "aug_0194.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0195.png",
+    "mask": "aug_0195.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0196.png",
+    "mask": "aug_0196.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0197.png",
+    "mask": "aug_0197.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0198.png",
+    "mask": "aug_0198.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0199.png",
+    "mask": "aug_0199.png",
+    "class_id": 19
+  },
+  {
+    "image": "aug_0200.png",
+    "mask": "aug_0200.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0201.png",
+    "mask": "aug_0201.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0202.png",
+    "mask": "aug_0202.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0203.png",
+    "mask": "aug_0203.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0204.png",
+    "mask": "aug_0204.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0205.png",
+    "mask": "aug_0205.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0206.png",
+    "mask": "aug_0206.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0207.png",
+    "mask": "aug_0207.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0208.png",
+    "mask": "aug_0208.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0209.png",
+    "mask": "aug_0209.png",
+    "class_id": 20
+  },
+  {
+    "image": "aug_0210.png",
+    "mask": "aug_0210.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0211.png",
+    "mask": "aug_0211.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0212.png",
+    "mask": "aug_0212.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0213.png",
+    "mask": "aug_0213.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0214.png",
+    "mask": "aug_0214.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0215.png",
+    "mask": "aug_0215.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0216.png",
+    "mask": "aug_0216.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0217.png",
+    "mask": "aug_0217.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0218.png",
+    "mask": "aug_0218.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0219.png",
+    "mask": "aug_0219.png",
+    "class_id": 21
+  },
+  {
+    "image": "aug_0220.png",
+    "mask": "aug_0220.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0221.png",
+    "mask": "aug_0221.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0222.png",
+    "mask": "aug_0222.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0223.png",
+    "mask": "aug_0223.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0224.png",
+    "mask": "aug_0224.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0225.png",
+    "mask": "aug_0225.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0226.png",
+    "mask": "aug_0226.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0227.png",
+    "mask": "aug_0227.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0228.png",
+    "mask": "aug_0228.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0229.png",
+    "mask": "aug_0229.png",
+    "class_id": 22
+  },
+  {
+    "image": "aug_0230.png",
+    "mask": "aug_0230.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0231.png",
+    "mask": "aug_0231.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0232.png",
+    "mask": "aug_0232.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0233.png",
+    "mask": "aug_0233.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0234.png",
+    "mask": "aug_0234.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0235.png",
+    "mask": "aug_0235.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0236.png",
+    "mask": "aug_0236.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0237.png",
+    "mask": "aug_0237.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0238.png",
+    "mask": "aug_0238.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0239.png",
+    "mask": "aug_0239.png",
+    "class_id": 23
+  },
+  {
+    "image": "aug_0240.png",
+    "mask": "aug_0240.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0241.png",
+    "mask": "aug_0241.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0242.png",
+    "mask": "aug_0242.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0243.png",
+    "mask": "aug_0243.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0244.png",
+    "mask": "aug_0244.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0245.png",
+    "mask": "aug_0245.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0246.png",
+    "mask": "aug_0246.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0247.png",
+    "mask": "aug_0247.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0248.png",
+    "mask": "aug_0248.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0249.png",
+    "mask": "aug_0249.png",
+    "class_id": 24
+  },
+  {
+    "image": "aug_0250.png",
+    "mask": "aug_0250.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0251.png",
+    "mask": "aug_0251.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0252.png",
+    "mask": "aug_0252.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0253.png",
+    "mask": "aug_0253.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0254.png",
+    "mask": "aug_0254.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0255.png",
+    "mask": "aug_0255.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0256.png",
+    "mask": "aug_0256.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0257.png",
+    "mask": "aug_0257.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0258.png",
+    "mask": "aug_0258.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0259.png",
+    "mask": "aug_0259.png",
+    "class_id": 25
+  },
+  {
+    "image": "aug_0260.png",
+    "mask": "aug_0260.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0261.png",
+    "mask": "aug_0261.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0262.png",
+    "mask": "aug_0262.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0263.png",
+    "mask": "aug_0263.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0264.png",
+    "mask": "aug_0264.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0265.png",
+    "mask": "aug_0265.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0266.png",
+    "mask": "aug_0266.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0267.png",
+    "mask": "aug_0267.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0268.png",
+    "mask": "aug_0268.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0269.png",
+    "mask": "aug_0269.png",
+    "class_id": 26
+  },
+  {
+    "image": "aug_0270.png",
+    "mask": "aug_0270.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0271.png",
+    "mask": "aug_0271.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0272.png",
+    "mask": "aug_0272.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0273.png",
+    "mask": "aug_0273.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0274.png",
+    "mask": "aug_0274.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0275.png",
+    "mask": "aug_0275.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0276.png",
+    "mask": "aug_0276.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0277.png",
+    "mask": "aug_0277.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0278.png",
+    "mask": "aug_0278.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0279.png",
+    "mask": "aug_0279.png",
+    "class_id": 27
+  },
+  {
+    "image": "aug_0280.png",
+    "mask": "aug_0280.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0281.png",
+    "mask": "aug_0281.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0282.png",
+    "mask": "aug_0282.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0283.png",
+    "mask": "aug_0283.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0284.png",
+    "mask": "aug_0284.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0285.png",
+    "mask": "aug_0285.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0286.png",
+    "mask": "aug_0286.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0287.png",
+    "mask": "aug_0287.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0288.png",
+    "mask": "aug_0288.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0289.png",
+    "mask": "aug_0289.png",
+    "class_id": 28
+  },
+  {
+    "image": "aug_0290.png",
+    "mask": "aug_0290.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0291.png",
+    "mask": "aug_0291.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0292.png",
+    "mask": "aug_0292.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0293.png",
+    "mask": "aug_0293.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0294.png",
+    "mask": "aug_0294.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0295.png",
+    "mask": "aug_0295.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0296.png",
+    "mask": "aug_0296.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0297.png",
+    "mask": "aug_0297.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0298.png",
+    "mask": "aug_0298.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0299.png",
+    "mask": "aug_0299.png",
+    "class_id": 29
+  },
+  {
+    "image": "aug_0300.png",
+    "mask": "aug_0300.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0301.png",
+    "mask": "aug_0301.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0302.png",
+    "mask": "aug_0302.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0303.png",
+    "mask": "aug_0303.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0304.png",
+    "mask": "aug_0304.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0305.png",
+    "mask": "aug_0305.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0306.png",
+    "mask": "aug_0306.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0307.png",
+    "mask": "aug_0307.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0308.png",
+    "mask": "aug_0308.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0309.png",
+    "mask": "aug_0309.png",
+    "class_id": 30
+  },
+  {
+    "image": "aug_0310.png",
+    "mask": "aug_0310.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0311.png",
+    "mask": "aug_0311.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0312.png",
+    "mask": "aug_0312.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0313.png",
+    "mask": "aug_0313.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0314.png",
+    "mask": "aug_0314.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0315.png",
+    "mask": "aug_0315.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0316.png",
+    "mask": "aug_0316.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0317.png",
+    "mask": "aug_0317.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0318.png",
+    "mask": "aug_0318.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0319.png",
+    "mask": "aug_0319.png",
+    "class_id": 31
+  },
+  {
+    "image": "aug_0320.png",
+    "mask": "aug_0320.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0321.png",
+    "mask": "aug_0321.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0322.png",
+    "mask": "aug_0322.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0323.png",
+    "mask": "aug_0323.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0324.png",
+    "mask": "aug_0324.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0325.png",
+    "mask": "aug_0325.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0326.png",
+    "mask": "aug_0326.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0327.png",
+    "mask": "aug_0327.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0328.png",
+    "mask": "aug_0328.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0329.png",
+    "mask": "aug_0329.png",
+    "class_id": 32
+  },
+  {
+    "image": "aug_0330.png",
+    "mask": "aug_0330.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0331.png",
+    "mask": "aug_0331.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0332.png",
+    "mask": "aug_0332.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0333.png",
+    "mask": "aug_0333.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0334.png",
+    "mask": "aug_0334.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0335.png",
+    "mask": "aug_0335.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0336.png",
+    "mask": "aug_0336.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0337.png",
+    "mask": "aug_0337.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0338.png",
+    "mask": "aug_0338.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0339.png",
+    "mask": "aug_0339.png",
+    "class_id": 33
+  },
+  {
+    "image": "aug_0340.png",
+    "mask": "aug_0340.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0341.png",
+    "mask": "aug_0341.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0342.png",
+    "mask": "aug_0342.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0343.png",
+    "mask": "aug_0343.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0344.png",
+    "mask": "aug_0344.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0345.png",
+    "mask": "aug_0345.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0346.png",
+    "mask": "aug_0346.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0347.png",
+    "mask": "aug_0347.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0348.png",
+    "mask": "aug_0348.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0349.png",
+    "mask": "aug_0349.png",
+    "class_id": 34
+  },
+  {
+    "image": "aug_0350.png",
+    "mask": "aug_0350.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0351.png",
+    "mask": "aug_0351.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0352.png",
+    "mask": "aug_0352.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0353.png",
+    "mask": "aug_0353.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0354.png",
+    "mask": "aug_0354.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0355.png",
+    "mask": "aug_0355.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0356.png",
+    "mask": "aug_0356.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0357.png",
+    "mask": "aug_0357.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0358.png",
+    "mask": "aug_0358.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0359.png",
+    "mask": "aug_0359.png",
+    "class_id": 35
+  },
+  {
+    "image": "aug_0360.png",
+    "mask": "aug_0360.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0361.png",
+    "mask": "aug_0361.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0362.png",
+    "mask": "aug_0362.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0363.png",
+    "mask": "aug_0363.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0364.png",
+    "mask": "aug_0364.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0365.png",
+    "mask": "aug_0365.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0366.png",
+    "mask": "aug_0366.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0367.png",
+    "mask": "aug_0367.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0368.png",
+    "mask": "aug_0368.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0369.png",
+    "mask": "aug_0369.png",
+    "class_id": 36
+  },
+  {
+    "image": "aug_0370.png",
+    "mask": "aug_0370.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0371.png",
+    "mask": "aug_0371.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0372.png",
+    "mask": "aug_0372.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0373.png",
+    "mask": "aug_0373.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0374.png",
+    "mask": "aug_0374.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0375.png",
+    "mask": "aug_0375.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0376.png",
+    "mask": "aug_0376.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0377.png",
+    "mask": "aug_0377.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0378.png",
+    "mask": "aug_0378.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0379.png",
+    "mask": "aug_0379.png",
+    "class_id": 37
+  },
+  {
+    "image": "aug_0380.png",
+    "mask": "aug_0380.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0381.png",
+    "mask": "aug_0381.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0382.png",
+    "mask": "aug_0382.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0383.png",
+    "mask": "aug_0383.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0384.png",
+    "mask": "aug_0384.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0385.png",
+    "mask": "aug_0385.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0386.png",
+    "mask": "aug_0386.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0387.png",
+    "mask": "aug_0387.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0388.png",
+    "mask": "aug_0388.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0389.png",
+    "mask": "aug_0389.png",
+    "class_id": 38
+  },
+  {
+    "image": "aug_0390.png",
+    "mask": "aug_0390.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0391.png",
+    "mask": "aug_0391.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0392.png",
+    "mask": "aug_0392.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0393.png",
+    "mask": "aug_0393.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0394.png",
+    "mask": "aug_0394.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0395.png",
+    "mask": "aug_0395.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0396.png",
+    "mask": "aug_0396.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0397.png",
+    "mask": "aug_0397.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0398.png",
+    "mask": "aug_0398.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0399.png",
+    "mask": "aug_0399.png",
+    "class_id": 39
+  },
+  {
+    "image": "aug_0400.png",
+    "mask": "aug_0400.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0401.png",
+    "mask": "aug_0401.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0402.png",
+    "mask": "aug_0402.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0403.png",
+    "mask": "aug_0403.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0404.png",
+    "mask": "aug_0404.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0405.png",
+    "mask": "aug_0405.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0406.png",
+    "mask": "aug_0406.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0407.png",
+    "mask": "aug_0407.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0408.png",
+    "mask": "aug_0408.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0409.png",
+    "mask": "aug_0409.png",
+    "class_id": 40
+  },
+  {
+    "image": "aug_0410.png",
+    "mask": "aug_0410.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0411.png",
+    "mask": "aug_0411.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0412.png",
+    "mask": "aug_0412.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0413.png",
+    "mask": "aug_0413.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0414.png",
+    "mask": "aug_0414.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0415.png",
+    "mask": "aug_0415.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0416.png",
+    "mask": "aug_0416.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0417.png",
+    "mask": "aug_0417.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0418.png",
+    "mask": "aug_0418.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0419.png",
+    "mask": "aug_0419.png",
+    "class_id": 41
+  },
+  {
+    "image": "aug_0420.png",
+    "mask": "aug_0420.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0421.png",
+    "mask": "aug_0421.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0422.png",
+    "mask": "aug_0422.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0423.png",
+    "mask": "aug_0423.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0424.png",
+    "mask": "aug_0424.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0425.png",
+    "mask": "aug_0425.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0426.png",
+    "mask": "aug_0426.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0427.png",
+    "mask": "aug_0427.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0428.png",
+    "mask": "aug_0428.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0429.png",
+    "mask": "aug_0429.png",
+    "class_id": 42
+  },
+  {
+    "image": "aug_0430.png",
+    "mask": "aug_0430.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0431.png",
+    "mask": "aug_0431.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0432.png",
+    "mask": "aug_0432.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0433.png",
+    "mask": "aug_0433.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0434.png",
+    "mask": "aug_0434.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0435.png",
+    "mask": "aug_0435.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0436.png",
+    "mask": "aug_0436.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0437.png",
+    "mask": "aug_0437.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0438.png",
+    "mask": "aug_0438.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0439.png",
+    "mask": "aug_0439.png",
+    "class_id": 43
+  },
+  {
+    "image": "aug_0440.png",
+    "mask": "aug_0440.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0441.png",
+    "mask": "aug_0441.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0442.png",
+    "mask": "aug_0442.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0443.png",
+    "mask": "aug_0443.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0444.png",
+    "mask": "aug_0444.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0445.png",
+    "mask": "aug_0445.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0446.png",
+    "mask": "aug_0446.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0447.png",
+    "mask": "aug_0447.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0448.png",
+    "mask": "aug_0448.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0449.png",
+    "mask": "aug_0449.png",
+    "class_id": 44
+  },
+  {
+    "image": "aug_0450.png",
+    "mask": "aug_0450.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0451.png",
+    "mask": "aug_0451.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0452.png",
+    "mask": "aug_0452.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0453.png",
+    "mask": "aug_0453.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0454.png",
+    "mask": "aug_0454.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0455.png",
+    "mask": "aug_0455.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0456.png",
+    "mask": "aug_0456.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0457.png",
+    "mask": "aug_0457.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0458.png",
+    "mask": "aug_0458.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0459.png",
+    "mask": "aug_0459.png",
+    "class_id": 45
+  },
+  {
+    "image": "aug_0460.png",
+    "mask": "aug_0460.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0461.png",
+    "mask": "aug_0461.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0462.png",
+    "mask": "aug_0462.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0463.png",
+    "mask": "aug_0463.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0464.png",
+    "mask": "aug_0464.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0465.png",
+    "mask": "aug_0465.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0466.png",
+    "mask": "aug_0466.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0467.png",
+    "mask": "aug_0467.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0468.png",
+    "mask": "aug_0468.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0469.png",
+    "mask": "aug_0469.png",
+    "class_id": 46
+  },
+  {
+    "image": "aug_0470.png",
+    "mask": "aug_0470.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0471.png",
+    "mask": "aug_0471.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0472.png",
+    "mask": "aug_0472.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0473.png",
+    "mask": "aug_0473.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0474.png",
+    "mask": "aug_0474.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0475.png",
+    "mask": "aug_0475.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0476.png",
+    "mask": "aug_0476.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0477.png",
+    "mask": "aug_0477.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0478.png",
+    "mask": "aug_0478.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0479.png",
+    "mask": "aug_0479.png",
+    "class_id": 47
+  },
+  {
+    "image": "aug_0480.png",
+    "mask": "aug_0480.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0481.png",
+    "mask": "aug_0481.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0482.png",
+    "mask": "aug_0482.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0483.png",
+    "mask": "aug_0483.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0484.png",
+    "mask": "aug_0484.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0485.png",
+    "mask": "aug_0485.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0486.png",
+    "mask": "aug_0486.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0487.png",
+    "mask": "aug_0487.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0488.png",
+    "mask": "aug_0488.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0489.png",
+    "mask": "aug_0489.png",
+    "class_id": 48
+  },
+  {
+    "image": "aug_0490.png",
+    "mask": "aug_0490.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0491.png",
+    "mask": "aug_0491.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0492.png",
+    "mask": "aug_0492.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0493.png",
+    "mask": "aug_0493.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0494.png",
+    "mask": "aug_0494.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0495.png",
+    "mask": "aug_0495.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0496.png",
+    "mask": "aug_0496.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0497.png",
+    "mask": "aug_0497.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0498.png",
+    "mask": "aug_0498.png",
+    "class_id": 49
+  },
+  {
+    "image": "aug_0499.png",
+    "mask": "aug_0499.png",
+    "class_id": 49
+  }
+]
