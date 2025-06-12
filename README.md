@@ -1,89 +1,65 @@
 # 🧠 ImageNet-Subset: Semi-Supervised Classification + Segmentation Challenge
 
-Welcome to the **ImageNet-Subset Semi-Supervised Learning Challenge**! In this project, your goal is to build models that can solve **two tasks** using a combination of labeled and unlabeled data:
+## Instructions
 
-- **Image classification**: Predict the object category in an image
-- **Semantic segmentation**: Predict a pixel-level mask indicating the object region
+### 1. Environment Setup
 
-You may approach the two tasks separately or jointly — for example:
-- Train a classification model and a segmentation model independently
-- Reuse the encoder from a classification model to initialize a segmentation model
-- Or implement a unified multi-task model
+- Install requirements (PyTorch, torchvision, numpy, pandas, PIL, tqdm, etc.).
+- Recommended: Python 3.8+ and CUDA-enabled GPU.
 
+### 2. Data Structure
+
+Ensure the following folders and files exist in your workspace:
+
+- `train-semi/`: Labeled training images.
+- `train-semi-segmentation/`: Segmentation masks for labeled images.
+- `train-unlabeled/`: Unlabeled images for semi-supervised learning.
+- `test/`: Test images for submission.
+- `train_semi_annotations_with_seg_ids.json`: JSON mapping images to segmentation masks (and class IDs if needed).
+
+### 3. Training
+
+#### Classification
+
+- Run `classificationv1.ipynb` or `classificationv2.ipynb` for supervised and semi-supervised classification.
+- `classification1` was my first try at classification, had no data augmentation, and only trained on purely labeled images
+- `classification2` was my second attempt at classification, used the same model, but also added data augmentation such as horizontal flips, random rotation, collor jitter. I also had a training loop of semi supervised learning, with a variable psuedo confident threshold that would increase per epoch, but would decrease if not enough labeled images were not being added. I played around with the number of training rounds, each with its own amount of supervised epochs and semi supervised epochs.
+- Models are saved in `saved_models/` + name
+
+#### Segmentation
+
+- Run `segmentation.ipnyb` to train segmentation model.
+- Used a custom Unet structure with convolutional blocks consisting of convolutional layers and attention layers.
+
+#### Data Augmentation
+
+- Use `dataAugmenter.ipynb` to augment your training data and generate new annotations. (was later scrapped after I realized that you can randomize data augmentation in the get_item function)
+
+### 4. Submission
+
+- Use `submission.ipynb` to generate the final CSV for submission.
+- The script will output `submission.csv` with predicted class and segmentation mask RLE for each test image.
+- Set paths to both segmentation and classification models (needs to be full model not just dict)
+- Set dummy-RLE to false if you want to have dummy masks of all 0's
+
+## Experimental Setup
+
+- **Classification Model:** Custom ResNet-18 (see `classificationv1.ipynb` and `classificationv2.ipynb`)
+- **Segmentation Model:** Custom UNet or ConvNeXt-based model (see `submission.ipynb`)
+- **Loss Functions:** CrossEntropyLoss for classification; CrossEntropy + Dice Loss for segmentation.
+- **Augmentation:** Random rotations, flips, color jitter, resizing.
+- **Semi-Supervised Learning:** Pseudo-labeling and self-training rounds using high-confidence predictions on unlabeled data.
+- **Validation:** Training set split or cross-validation.
+
+## Results Summary
+
+- **Classification:**
+  - Supervised accuracy (ResNet-18): ~55-60% on labeled validation set after 7 epochs.
+  - Semi-supervised self-training improved accuracy up to ~90% on training data when doing 10 epochs
+- **Segmentation:**
+  - UNet/ConvNeXt models trained with CrossEntropy + Dice Loss.
+  - Achieved mean Dice score and IoU improvements with data augmentation and semi-supervised learning.
+  - Decent fitting on images, but not very good, has a much broader scope
+  - [Validation] Loss: 5.8962 | Dice: 0.6731 | IoU: 0.0002
 
 ---
-
-## 📁 Dataset Structure
-```text
-ImageNet-Subset/
-├── train-unlabeled/ # 5000 unlabeled training images (randomized, no class info)
-├── train-semi/ # 500 labeled images (50 classes × 10 images), with class labels
-├── train-semi-segmentation/ # Corresponding pixel-level segmentation masks for train-semi images
-├── train_semi_annotations_with_seg_ids.json # Classification + segmentation metadata
-├── test/ # 752 test images (randomized, class-agnostic)
-└── (you will submit results for test/)
-```
-
----
-
-## 📝 Task Description
-
-You are given:
-- A small **labeled set** (`train-semi`) with both image-level class labels and pixel-level segmentation masks.
-- A large **unlabeled set** (`train-unlabeled`) without any label.
-- A **test set** (`test/`) with 752 randomized images. The labels and masks are hidden from you.
-
-Your goals are:
-
-1. **Train a model** using the labeled and unlabeled data.
-2. **Predict for each test image**:
-   - The **class label** (index from `0` to `49`)
-   - The **segmentation mask** (PNG format, with class ID encoded as `R + G × 256`)
-
----
-
-## 📤 Submission Format
-
-Submit a zipped folder with the following contents:
-```text
-submission/
-├── classification.json # classification predictions
-├── segmentation/ # predicted segmentation masks (.png)
-```
-
-### 1. `classification.json`
-
-A list of classification predictions for test images:
-
-```json
-[
-  {"image": "00000.jpg", "class_id": 17},
-  {"image": "00001.jpg", "class_id": 3},
-  ...
-]
-```
-
-### 2. `segmentation/`
-A folder containing segmentation masks named exactly like the test images but with .png extension:
-```text
-segmentation/
-├── 00000.png
-├── 00001.png
-├── ...
-```
-Each PNG should:
-
-Be the same resolution as the original image
-
-Use class IDs encoded as R + G * 256
-
-Background should be 0, ignored region (if any) should be 1000
-
-✅ Evaluation
-You will be evaluated on:
-
-Image classification accuracy
-
-Semantic segmentation mIoU (mean Intersection over Union)
-
-Both metrics will be computed using hidden ground-truth from the instructors.
